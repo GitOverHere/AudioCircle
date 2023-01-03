@@ -1,0 +1,10 @@
+^C:\USERS\BINNY\SOURCE\REPOS\AUDIOCIRCLE\COMPILED\PORTAUDIO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Binny/source/repos/AudioCircle/compiled/portaudio -BC:/Users/Binny/source/repos/AudioCircle/compiled/portaudio --check-stamp-file C:/Users/Binny/source/repos/AudioCircle/compiled/portaudio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

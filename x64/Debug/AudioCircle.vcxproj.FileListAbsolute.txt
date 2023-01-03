@@ -1,0 +1,2 @@
+C:\Users\Binny\source\repos\AudioCircle\x64\Debug\AudioCircle.exe
+C:\Users\Binny\source\repos\AudioCircle\x64\Debug\AudioCircle.pdb
